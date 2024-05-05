@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <title>AI poem generator</title>
 </head>
 
@@ -25,19 +27,12 @@
 
         <main>
 
-            <form>
+            <form id="poem-generator-form">
                 <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off"
                     class="instructions" />
                 <input type="submit" class="submit-button" />
             </form>
-            <div class="poem">
-                Hold fast to dreams
-                <br />
-                For if dreams die
-                <br />
-                Life is a broken-winged bird
-                <br />
-                That cannot fly.
+            <div class="poem" id="poem">
             </div>
         </main>
 
